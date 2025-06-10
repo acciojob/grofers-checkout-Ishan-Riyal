@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Grofers Checkout</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h2>Grocery List</h2>
+<head>
+  <meta charset="UTF-8">
+  <title>Grofers Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <table id="groceryTable">
-      <tr>
-        <th>Item</th>
-        <th>Price (₹)</th>
-      </tr>
-      <tr class="item">
-        <td>Apples</td>
-        <td class="prices">50</td>
-      </tr>
-      <tr class="item">
-        <td>Bananas</td>
-        <td class="prices">30</td>
-      </tr>
-      <tr class="item">
-        <td>Milk</td>
-        <td class="prices">60</td>
-      </tr>
-      <tr class="item">
-        <td>Bread</td>
-        <td class="prices">40</td>
-      </tr>
-    </table>
+  <h2>Grocery List</h2>
 
-    <script src="script.js"></script>
-  </body>
+  <table id="groceryTable">
+    <tr>
+      <th>Item</th>
+      <th>Price (₹)</th>
+    </tr>
+    <tr class="item">
+      <td>Apples</td>
+      <td class="price" contenteditable="true">50</td>
+    </tr>
+    <tr class="item">
+      <td>Bananas</td>
+      <td class="price" contenteditable="true">30</td>
+    </tr>
+    <tr class="item">
+      <td>Milk</td>
+      <td class="price" contenteditable="true">60</td>
+    </tr>
+    <tr class="item">
+      <td>Bread</td>
+      <td class="price" contenteditable="true">40</td>
+    </tr>
+    <tr class="item">
+      <td>Eggs</td>
+      <td class="price" contenteditable="true">70</td>
+    </tr>
+  </table>
+
+  <button id="calcTotal">Get Total Price</button>
+
+  <h3>Total: ₹<span id="ans">0</span></h3>
+
+  <script src="script.js"></script>
+</body>
 </html>

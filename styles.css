@@ -45,3 +45,7 @@ button {
 button:hover {
   background-color: #218838;
 }
+
+td.price:invalid {
+  background-color: #ffe6e6;
+}

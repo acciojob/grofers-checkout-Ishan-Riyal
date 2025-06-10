@@ -7,7 +7,7 @@ const getSum = () => {
 
   priceElements.forEach(el => {
     const value = parseFloat(el.textContent.trim());
-    total += isNaN(value) ? 0 : value;
+    if (!isNaN(value)) total += value;
   });
 
   ansBox.textContent = total;

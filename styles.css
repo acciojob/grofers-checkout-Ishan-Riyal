@@ -1,2 +1,39 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */body {
+  font-family: Arial, sans-serif;
+  background: #fefefe;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f5a623;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr.total-row td {
+  font-weight: bold;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
